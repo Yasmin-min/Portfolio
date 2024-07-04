@@ -44,6 +44,19 @@ h2.titulo{
 
 }
 
+.btn-social button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(150, 90, 207);
+    font-size: 20px;
+    cursor: pointer; /*mouse muda*/
+    margin: 0 2px;
+    transition: .2s;
+}
+
+
 /* CABEÇALHO */
 
 header{
@@ -185,18 +198,6 @@ section.sobre .flex{
     line-height: 40px;
 }
 
-.sobre .txt-sobre .btn-social button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(150, 90, 207);
-    font-size: 20px;
-    cursor: pointer; /*mouse muda*/
-    margin: 0 2px;
-    transition: .2s;
-}
-
 /* PORTIFOLIO */
 
 section.portifolio{
@@ -282,7 +283,7 @@ form .btn-enviar{
     margin-top: 10px;
     text-align: center;
 }
- 
+
 form .btn-enviar input{
     width: 80px;
     background-color: rgb(150, 90, 207);
@@ -296,5 +297,35 @@ form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px rgb(128, 75, 177);
     transform: scale(1.05);
 }
+
+/* RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #414040;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #9fc3c4;
+}
+
+footer .line-footer p i{
+    padding: 5px;
+    color:#d2a7e6;
+    font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
 
 
