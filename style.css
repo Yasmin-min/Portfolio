@@ -41,7 +41,6 @@ h2.titulo{
     color: #d2a7e6;
     font-size: 40px;
     text-align: center;
-
 }
 
 .btn-social button{
@@ -327,5 +326,64 @@ footer .line-footer p a{
     color: #fff;
 }
 
+  
 
 
+@media screen and (max-whidth: 1020PX){
+
+    /* GERAL */
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        font-size: 30px;
+        text-align: 34PX;
+    }
+
+    /* CABEÇALHO */
+
+    .menu-desktop, btn-contato{
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+ 
+    section .topo-do-site{
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .topo-do-site h1{
+        font-size: 28px;
+        line-height: 20px;
+    }
+    
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES */
+
+    section.especialidades{
+        padding: 40px 8%; 
+    }
+
+    /* SOBRE */
+
+    section.sobre{
+        padding: 100 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: ;
+    }
+
+} 
