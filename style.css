@@ -140,7 +140,6 @@ overlay-menu{
     top: 0;
     left: 0;
     z-index: 88888;
-
 }
  
 /* TOPO DO SITE */
@@ -396,31 +395,28 @@ footer .line-footer p a{
 
     /* CABEÇALHO */
 
-    .menu-desktop, btn-contato{
+    .menu-desktop, .btn-contato{
         display: none;
     }
 
     /* TOPO DO SITE */
  
     section .topo-do-site{
-        padding: 20px 8%;
+        padding: 20px 10%;
     }
 
     section.topo-do-site .flex{
-        gap: 80px;
-    }
-
-    .topo-do-site .flex{
         flex-direction: column-reverse;
+        text-align: center;
+        gap: 80px;
     }
 
     .topo-do-site h1{
         font-size: 28px;
-        line-height: 20px;
     }
     
     .topo-do-site .img-topo-site img{
-        width: 100%;
+        width: 85%;
     }
 
     .topo-do-site p{
@@ -440,8 +436,12 @@ footer .line-footer p a{
         padding: 100 8%;
     }
 
+    section.sobre .flex{
+        text-align: center;
+    }
+
     .sobre .txt-sobre h2{
-        font-size: 34px;
+        font-size: 35px;
         line-height: 35px;
         text-align: center;
     }
