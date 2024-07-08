@@ -202,6 +202,7 @@ section.especialidades{
 
 section.especialidades .flex{
     gap: 60px;
+    justify-content: center;
 }
 
 .especialidades .especialidades-box{
@@ -209,7 +210,6 @@ section.especialidades .flex{
     padding: 50px;
     border-radius: 10px;
     margin-top: 25px;
-    margin-left: 100px; /*tentativa de centralizar*/
     transition: .2s;
 }
 
