@@ -61,7 +61,11 @@ h2.titulo{
 /* CABEÇALHO */
 
 header{
+    background-color: black;
     padding: 40px 4%;  /* Distancia dos outros itens */
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 header >.interface{
