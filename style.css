@@ -444,6 +444,7 @@ footer .line-footer p a{
     .topo-do-site p{
         font-size: 20px;
         /* line-height: 20px;   */
+        max-width: none;
     }
 
     /* ESPECIALIDADES */
