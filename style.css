@@ -431,20 +431,24 @@ footer .line-footer p a{
         flex-direction: column-reverse;
         text-align: center;
         gap: 80px;
+        padding: 40px;
+
     }
 
     .topo-do-site h1{
         font-size: 28px;
-    }
-    
-    .topo-do-site .img-topo-site img{
-        width: 85%;
+        line-height: 25px;
     }
 
     .topo-do-site p{
         font-size: 20px;
-        /* line-height: 20px;   */
+        line-height: 20px;  
         max-width: none;
+        margin: 10px 0;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 85%;
     }
 
     /* ESPECIALIDADES */
