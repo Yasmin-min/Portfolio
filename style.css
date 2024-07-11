@@ -425,6 +425,10 @@ footer .line-footer p a{
         opacity: 1;
     }
 
+    section .header img{
+        width: 10%;
+    }
+
     /* TOPO DO SITE */
  
     section .topo-do-site{
