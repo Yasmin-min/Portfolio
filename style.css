@@ -57,14 +57,22 @@ h2.titulo{
     transition: .2s;
 }
 
+/*ESPAÇO EM CIMA*/
+
+ section .flex-top{
+    display: flex;
+    padding-bottom: 100px;
+
+ }
 
 /* CABEÇALHO */
 
 header{
     background-color: black;
-    padding: 40px 4%;  /* Distancia dos outros itens */
-    position: sticky;
+    padding: 0px 4%;  /* Distancia dos outros itens */
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 99999;
 }
 
@@ -165,6 +173,7 @@ header a:hover{
 
 section .topo-do-site{
     padding: 40px 4%;
+    /* padding-top: 100px; */
 }
 
 section.topo-do-site .flex{
