@@ -166,7 +166,8 @@ section .topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
+    padding: 90px;
 }
 
 .topo-do-site h1{
@@ -178,8 +179,9 @@ section.topo-do-site .flex{
 .topo-do-site p{
     color:#fff;
     margin: 40px 0;
-    line-height: 1px;
+    line-height: 25px;
     text-align: justify;
+    max-width: 85%;
 }
 
 .topo-do-site .img-topo-site img{
@@ -415,15 +417,14 @@ footer .line-footer p a{
         display: none;
     }
 
+    .btn-abrir-menu i{
+        opacity: 1;
+    }
 
     /* TOPO DO SITE */
  
     section .topo-do-site{
         padding: 20px 10%;
-    }
-
-    .btn-abrir-menu i{
-        opacity: 1;
     }
 
     section.topo-do-site .flex{
@@ -442,7 +443,7 @@ footer .line-footer p a{
 
     .topo-do-site p{
         font-size: 20px;
-        line-height: 20px;
+        /* line-height: 20px;   */
     }
 
     /* ESPECIALIDADES */
